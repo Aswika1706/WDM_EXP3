@@ -1,5 +1,5 @@
-### EX3 Implementation of GSP Algorithm In Python
-### DATE: 
+### EXP-3 Implementation of GSP Algorithm In Python
+### NAME: ASWIKA B
 ### AIM: To implement GSP Algorithm In Python.
 ### Description:
 The Generalized Sequential Pattern (GSP) algorithm is a data mining technique used for discovering frequent patterns within a sequence database. It operates by identifying sequences that frequently occur together. GSP works by employing a depth-first search strategy to explore and extract frequent patterns efficiently.
@@ -12,7 +12,7 @@ The Generalized Sequential Pattern (GSP) algorithm is a data mining technique us
 GSP finds application in various domains such as market basket analysis, web usage mining, bioinformatics, and more. For instance, in retail, GSP can identify common purchasing patterns, helping businesses understand customer behavior for targeted marketing or inventory management.
 </p>
 
-### Procedure:
+## Procedure:
 <p align="justify">
 1. From collections import defaultdict, from itertools import combinations: Imports necessary libraries/modules. defaultdict is
 used to create a dictionary with default values and combinations generates all possible combinations of a sequence.</p>
@@ -36,8 +36,8 @@ for each wear category.</p>
 <p align="justify">
 8. Visulaize the sequence patterns using matplotlib.
 </p>
-### Program:
 
+## Program:
 ```python
 from collections import defaultdict
 from itertools import combinations
@@ -102,6 +102,7 @@ else:
  print("No frequent sequential patterns found in Party Wear.")
 ```
 ### Output:
+<img width="722" height="431" alt="image" src="https://github.com/user-attachments/assets/7df3f5ef-1b19-43fd-8505-5340ceaf346f" />
 
 ### Visualization:
 ```python
@@ -130,6 +131,9 @@ visualize_patterns_line(bottom_wear_result, 'Bottom Wear')
 visualize_patterns_line(party_wear_result, 'Party Wear')
 ```
 ### Output:
+<img width="892" height="528" alt="image" src="https://github.com/user-attachments/assets/45887d7e-8073-45f9-a32a-d6ebe766834b" />
+<img width="887" height="531" alt="image" src="https://github.com/user-attachments/assets/354ee02d-7869-4ae5-9d08-f81ceb6026f2" />
 
 
 ### Result:
+Thus GSP Algorithm In Python is implemented.
